@@ -1,0 +1,116 @@
+{
+	"name": "SchoolFinance",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AmazonS3_orderlogs_lele",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AmazonS3Location",
+				"bucketName": "orderlogs-lele",
+				"fileName": "dek-av-16.json"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"sg_id": {
+					"type": "string"
+				},
+				"sg_id_os": {
+					"type": "string"
+				},
+				"sg_bezeichnung": {
+					"type": "string"
+				},
+				"sg_bezeichnung_ssg": {
+					"type": "string"
+				},
+				"sgtyp2": {
+					"type": "string"
+				},
+				"jahr": {
+					"type": "string"
+				},
+				"pg": {
+					"type": "integer"
+				},
+				"steuerfuss": {
+					"type": "integer"
+				},
+				"steuerfuss_sek": {
+					"type": "integer"
+				},
+				"steuerfuss_total": {
+					"type": "integer"
+				},
+				"steuerkraft": {
+					"type": "number"
+				},
+				"steuerkraft_psgvsg": {
+					"type": "number"
+				},
+				"einwohner": {
+					"type": "integer"
+				},
+				"einwohner_psgvsg": {
+					"type": "integer"
+				},
+				"schueler": {
+					"type": "number"
+				},
+				"schueler_einwohner": {
+					"type": "number"
+				},
+				"steuerkraft_einw": {
+					"type": "number"
+				},
+				"beitraege_rrb742": {
+					"type": "integer"
+				},
+				"beitraege_rrb742_steuerkraft": {
+					"type": "number"
+				},
+				"eigenkapital_bilanzfehlbetrag": {
+					"type": "number"
+				},
+				"bilanzsituation_steuerkraft": {
+					"type": "number"
+				},
+				"aufwand": {
+					"type": "number"
+				},
+				"bilanzsituation_aufwand": {
+					"type": "number"
+				},
+				"erfolg": {
+					"type": "number"
+				},
+				"erfolg_steuerkraft": {
+					"type": "number"
+				},
+				"nettoschuld": {
+					"type": "number"
+				},
+				"fiskalertrag": {
+					"type": "number"
+				},
+				"nettoschuld_fiskalertrag": {
+					"type": "number"
+				},
+				"vv": {
+					"type": "number"
+				},
+				"investitionen": {
+					"type": "number"
+				},
+				"hrm2": {
+					"type": "integer"
+				}
+			}
+		}
+	}
+}
