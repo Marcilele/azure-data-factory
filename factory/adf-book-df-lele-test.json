@@ -1,0 +1,9 @@
+{
+	"name": "adf-book-df-lele-test",
+	"location": "germanywestcentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a955e64b-ccc6-442b-9b97-b8d46b289748",
+		"tenantId": "caef4686-39d1-40ba-a6c8-759fba8e7996"
+	}
+}
