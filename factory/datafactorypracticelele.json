@@ -1,0 +1,9 @@
+{
+	"name": "datafactorypracticelele",
+	"location": "germanywestcentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "015fe17f-8890-467e-94ff-63766f313a54",
+		"tenantId": "caef4686-39d1-40ba-a6c8-759fba8e7996"
+	}
+}
